@@ -1,0 +1,13 @@
+Unit Unitl;
+
+interface
+
+uses
+   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs, StdCtrls, ExCtrls, ComCtrls, Buttons, Brute, Encryp;
+   
+   type
+      TForm1 = class(TForm)
+      Panell: TPanel;
+      Labell: TLabel;
+      Timer1: TTimer;
+      Memol: TMemo;
