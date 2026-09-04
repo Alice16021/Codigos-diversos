@@ -1,16 +1,16 @@
 
 #!/bin/bash
 
-#Visualização no terminal
+#Terminal
 VERDE="\033[0;32m"
 AZUL="\033[0;34m"
 SEM_COR="\033[0m"
 
 echo -e "${AZUL}=========================================${SEM_COR}"
-echo -e "${VERDE}   TOOLKIT DE RECONHECIMENTO INICIAL     ${SEM_COR}"
+echo -e "${VERDE}   RECONHECIMENTO INICIAL               ${SEM_COR}"
 echo -e "${AZUL}=========================================${SEM_COR}"
 
-# Solicita o alvo ao usuário
+# Alvo
 read -p "Digite o IP ou URL do alvo: " ALVO
 
 echo -e "\n${AZUL}[*] Iniciando Host Discovery (Ping Sweep)...${SEM_COR}"
